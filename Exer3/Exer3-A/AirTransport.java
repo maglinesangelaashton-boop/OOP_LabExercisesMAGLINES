@@ -1,42 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 package Transportationss;
 
 public class AirTransport extends Transportation {
@@ -59,4 +20,5 @@ public class AirTransport extends Transportation {
     public String displayInfo() {
         return "This is an Air Transport with " + this.engines + " engines.";
     }
+
 }
